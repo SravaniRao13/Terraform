@@ -1,0 +1,11 @@
+variable "region" { default = "ap-south-1" }
+variable "profile" { default = "default" }
+variable "availability_zone1" { default = "ap-south-1a" }
+variable "volume_size1" { default = "10" }
+variable "volume_name1" { default = "app_vg" }
+variable "availability_zone2" { default = "ap-south-1b" }
+variable "volume_size2" { default = "10" }
+variable "volume_name2" { default = "web_vg" }
+variable "availability_zone3" { default = "ap-south-1c" }
+variable "volume_size3" { default = "10" }
+variable "volume_name3" { default = "db_vg" }
